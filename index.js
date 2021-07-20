@@ -6,7 +6,7 @@ const mongoose = require("mongoose");
 const lodash = require("lodash");
 const app = express();
 
-mongoose.connect("mongodb://localhost/blogDB",{useNewUrlParser:true, useUnifiedTopology:true});
+mongoose.connect("mongodb://localhost/MylistDB",{useNewUrlParser:true, useUnifiedTopology:true});
 
 const listschema = new mongoose.Schema({
     name:String
